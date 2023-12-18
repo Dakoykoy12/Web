@@ -1,0 +1,975 @@
+.nav-top{
+    width: 100%;
+    background-color: rgb(100, 149, 237);
+    height: 100px;   
+    justify-content: space-between;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px ;
+}
+.logo img{
+    width: 100px;
+    margin-left: 210px;
+    margin-right: 25%;
+    margin-top: 10px;
+}
+.pawpaw{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.pawpaw img{
+    width: 80px;
+}
+.paw{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+}
+.paw img{
+    width: 80px;
+}
+.input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    color: #000000;
+    align-items: center;
+    border-radius: 60px;
+    width: 300px;
+    height: 5px;
+}
+button{
+    border-radius: 100px;
+    outline: none;
+    border: 0;
+}
+button img{
+    width: 25px;
+}
+#search{
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.search-bar{
+    position: absolute;
+    left: 360px;
+    top: 40px;
+    width: 350px;
+    height: 40px;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 1px 15px;
+}
+.search-bar button{
+    background: none;
+}
+.nav-bot{
+    padding: 25px;
+}
+.nav-bot a{
+    text-decoration: none;
+    margin-left: 25px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu a:hover{
+    color: blue;
+}
+span img{
+    width: 25px;
+    margin-left: 20px;
+}
+.deserve{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 350px;
+    padding: 25px;
+}
+.pets{
+    position: absolute;
+    left: 250px;
+    justify-content: center;
+}
+h1{
+    color: white;
+}
+.fb{
+    width: 30px;
+}
+.twitter{
+    width: 30px;
+}
+.love{
+    font-size: 20px;
+    color: white;
+}
+.pawprint{
+    position: absolute;
+    left: 120px;
+    width: 45px;
+    
+}
+.pet-food{
+    position: absolute;
+    top: 230px;
+    right: 5px;
+}
+.pet-food img{
+    width: 520px;
+}
+.print{
+    position: absolute;
+    top: 250px;
+}
+.facebook{
+    position: absolute;
+    top: 330px;
+}
+.twit{
+    position: absolute;
+    top: 370px;
+}
+.sign-in{
+    position: absolute;
+    right: 545px;
+    top: 45px;
+
+}
+.sign-in img{
+    width: 35px;
+}
+.user:hover{
+    color: black;
+}
+.user{
+    text-decoration: none;
+    width: 30px;
+    font-size: 20px;
+    color: white;
+}
+.register{
+    position: absolute;
+    right: 470px;
+    top: 50px;
+}
+.registrar{
+    position: absolute;
+    right: 385px;
+    top: 50px;
+}
+.cart-image{
+    position: absolute;
+    top: 47px;
+    right: 200px;
+    background-color: rgba(255, 254, 254, 0.5);
+    width: 160px;
+    height: 30px;
+    border-radius: 60px;
+
+}
+.cart-image img{
+    position: absolute;
+    top: 3px;
+    left: 7px;
+     width: 20px;
+}
+.inside-cart a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffff;
+}
+.inside-cart a:hover{
+    color: black;
+}
+.inside-cart{
+    position: absolute;
+    left: 40px;
+    top: 3px;
+}
+.shop-now{
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    background-color: rgb(255, 166, 0);
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.shop{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 12px;
+    color: #ffff;
+}
+.shop:hover{
+    color: #000000;
+}
+.shop-now a{
+    text-decoration: none;
+}
+.white-paw{
+    width: 30px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.featured{
+    background-color: #ffff;
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+}
+.featured-text h1{
+    margin-left: 60px;
+    color: #000000;
+    font-style: inherit;
+}
+.left{
+    position: absolute;
+    right: 135px;
+    top: 676px;
+    background-color: transparent;
+}
+.right{
+    position: absolute;
+    right: 105px;
+    top: 674px;
+    background-color: transparent;
+}
+.right img{
+    width: 30px;
+}
+.categories{
+    margin-left: 50px;
+    border: 1px solid gray;
+    width: 1140px;
+    height: 40px;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 30px;
+}
+.categories a:hover{
+    background-color: rgb(6, 184, 255);
+    border-radius: 20px;
+    color: #ffff;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 20px;
+    color: gray;
+}
+#nav-links{
+    color: orange;
+}
+.hills-dogfood{
+    position: absolute;
+    top: 845px;
+    left: 118px;
+    border: 1px solid rgb(220, 220, 220);
+    width: 280px;
+    height: 393px;
+    justify-content: center;
+}
+.hills-dogfood h3{
+    text-align: center;
+    margin-top: 240px;
+}
+.hills-dogfood img{
+    position: absolute;
+    left: 40px;
+    top: 12px;
+    width: 200px;
+}
+.hills-catfood{
+    position: absolute;
+    top: 845px;
+    left: 400px;
+    border: 1px solid rgb(220, 220, 220);
+    width: 280px;
+    height: 393px;
+    justify-content: center;
+
+}
+.hills-catfood h3{
+    text-align: center;
+    margin-top: 240px;
+}
+.hills-catfood img{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    width: 165px;
+}
+.hills-dogtreat{
+    position: absolute;
+    top: 845px;
+    left: 680px;
+    border: 1px solid rgb(220, 220, 220);
+    width: 280px;
+    height: 393px;
+    justify-content: center;
+
+}
+.hills-dogtreat h3{
+    text-align: center;
+    margin-top: 240px;
+}
+.hills-dogtreat img{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width: 200px;
+}
+.hills-petfood{
+    position: absolute;
+    top: 845px;
+    left: 960px;
+    border: 1px solid rgb(220, 220, 220);
+    width: 280px;
+    height: 393px;
+    justify-content: center;
+
+}
+.hills-petfood h3{
+    text-align: center;
+    margin-top: 240px;
+}
+.petfood{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    width: 200px;
+}
+.link{
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+}
+.price{
+    text-align: center;
+}
+.sale{
+    position: absolute;
+    width: 60px;
+}
+.add-to-cart{
+    position: absolute;
+    left: 55px;
+    background-color: #6495ed;
+    width: 170px;
+    height: 50px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.add-to-cart button{
+    background: none;
+    margin-left: 45px ;
+    margin-top: 18px;
+    color: #ffff;
+}
+.add-to-cart img{
+    width: 25px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.pet-breed{
+    padding: 110px;
+}
+.breed-text{
+    color: #000000;
+}
+.yellow-left{
+    position: absolute;
+    top: 1550px;
+    width: 30px;
+}
+.yellow-right{
+    position: absolute;
+    top: 1550px;
+    left: 160px;
+    width: 30px;
+}
+.dog{
+    position: absolute;
+    left: 411px;
+    top: 1320px;
+    height: 300px;
+}
+.dog img{
+    width: 250px;
+}
+.cat{
+    position: absolute;
+    left: 662px;
+    top: 1320px;
+    height: 300px;
+}
+.cat img{
+    width: 170px;
+}
+.bird{
+    position: absolute;
+    left: 833px;
+    top: 1320px;
+    height: 300px;
+}
+.bird img{
+    width: 210px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.fish{
+    position: absolute;
+    left: 1044px;
+    top: 1320px;
+    height: 300px;
+}
+.fish img{
+    width: 210px;
+    margin-top: 20px;
+}
+.bird h6{
+    margin-top: 47px;
+}
+.fish h6{
+    margin-top: 60px;
+}
+.pet-name{
+    text-align: center;
+    font-size: 17px;
+}
+.pet-breed button{
+    background: none;
+}
+.breed-types{
+    color: #808080;
+}
+.partner{
+    background-color: rgb(86, 130, 212);
+    width: 900px;
+    height: 470px;
+}
+.dog-recommend{
+    background-color: #6495ed;
+    width: 900px;
+    height: 470px;
+}
+.waving-cat{
+    position: absolute;
+    top: 1668px;
+    left: 430px;
+    width: 250px;
+    transform: rotate(180deg);
+}
+.waving-dog{
+    position: absolute;
+    left: 1000px;
+    top: 1895px;
+    width: 365px;
+}
+.flex-pets{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.partner h1{
+    position: absolute;
+    top: 1750px;
+    left: 100px;
+}
+.click{
+    position: absolute;
+    left: 100px;
+    top: 2020px;
+    background-color: rgb(255, 183, 49);
+    width: 160px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.white-print{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 25px;
+}
+.click-here{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 55px;
+    margin-top: 7px;
+    color: #ffff;
+}
+.click-here:hover{
+    color: #000000;
+}
+.partner-text{
+    position: relative;
+    top: 210px;
+    left: 90px;
+    color: #ffff;
+}
+.dog-text{
+    position: relative;
+    color: #ffff;
+    top: 210px;
+    left: 80px;
+}
+.clicker{
+    position: absolute;
+    left: 750px;
+    top: 2020px;
+    background-color: rgb(255, 183, 49);
+    width: 160px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.here-click{
+    position: absolute;
+    text-decoration: none;
+    margin-left: 55px;
+    margin-top: 7px;
+    color: #ffff;
+}
+.here-click:hover{
+    color: #000000;
+}
+.white-click{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 25px;
+}
+.dog-recommend h1{
+    position: absolute;
+    top: 1750px;
+    left: 750px;
+}
+.barking-cat{
+    height: 559px;
+}
+.barking-text{
+    position: absolute;
+    left: 570px;
+    top: 2280px;
+    background-color: #ffff;
+    width: 580px;
+    height: 360px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+.barking-text h1{
+    color: #353333;
+
+}
+.welcome-a{
+    text-decoration: none;
+}
+.holding-dog{
+    position: relative;
+    top: 90px;
+    left: 150px;
+    width: 500px;
+}
+.three-pets{
+    position: absolute;
+    top: 2300px;
+    left: 1097px;
+    width: 250px;
+}
+.dog-tounge{
+    position: absolute;
+    top: 2320px;
+    left: 0px;
+}
+.introducing{
+    position: relative;
+    top: 45px;
+}
+.barking-text h6{
+    color: rgb(255, 181, 43);
+    font-size: 20px;
+}
+.clic{
+    position: relative;
+    left: 45%;
+    top: 30px;
+    background-color: rgb(255, 183, 49);
+    width: 160px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.statement{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+.statement a{
+    text-decoration: none;
+}
+.statement h1{
+    color: #353333;
+}
+.read-more{
+    margin-top: 220px;
+}
+.remarkable h1{
+    font-size: 36px;
+    color: #353333;
+    text-align: center;
+    margin-left: 50px;
+}
+.remarkable p{
+    color: #836d6d;
+    margin-left: 320px;
+}
+.we{
+    position: absolute;
+    top: 3290px;
+}
+.pet-icon{
+    position: absolute;
+    justify-content: center;
+    margin-top: 50px;
+}
+.dog-icon{
+    position: absolute;
+    left: 110px;
+    background-color: rgba(255, 255, 0, 0.137);
+    width: 210px;
+    height: 300px;
+}
+.dog-icon img{
+    position: absolute;
+    left: 75px;
+    margin-top: 40px;
+    width: 50px;
+}
+.cat-icon{
+    position: absolute;
+    left: 325px;
+    background-color: #6494ed31;
+    width: 210px;
+    height: 300px;
+    margin-left: 20px;
+}
+.cat-icon img{
+    position: absolute;
+    left: 75px;
+    margin-top: 40px;
+    width: 50px;
+}
+.bird-icon{
+    position: absolute;
+    left: 560px;
+    background-color: rgba(255, 255, 0, 0.137);
+    width: 210px;
+    height: 300px;
+    margin-left: 20px;
+}
+.bird-icon img{
+    position: absolute;
+    left: 75px;
+    margin-top: 40px;
+    width: 50px;
+}
+.fish-icon{
+    position: absolute;
+    left: 795px;
+    background-color: #6494ed31;
+    width: 210px;
+    height: 300px;
+    margin-left: 20px;
+}
+.fish-icon img{
+    position: absolute;
+    left: 75px;
+    margin-top: 40px;
+    width: 50px;
+}
+.rabbit-icon{
+    position: absolute;
+    left: 1030px;
+    background-color: rgba(255, 255, 0, 0.137);
+    width: 210px;
+    height: 300px;
+    margin-left: 20px;
+}
+.rabbit-icon img{
+    position: absolute;
+    left: 75px;
+    margin-top: 40px;
+    width: 50px;
+}
+.icon-text{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;  
+}
+.icon-p{
+    position: relative;
+    text-align: center;
+    color: #808080;
+
+}
+.read{
+    position: relative;
+    text-align: center;
+    color: rgb(243, 178, 56);
+}
+.read1{
+    position: relative;
+    text-align: center;
+    color: #417ceb;
+}
+.dog-icon button{
+    background: none;
+    position: relative;
+    left: 50px;
+}
+.cat-icon button{
+    background: none;
+    position: relative;
+    left: 50px;
+}
+.bird-icon button{
+    background: none;
+    position: relative;
+    left: 50px;
+}
+.fish-icon button{
+    background: none;
+    position: relative;
+    left: 50px;
+}
+.rabbit-icon button{
+    background: none;
+    position: relative;
+    left: 50px;
+}
+.clec{
+    position: relative;
+    left: 50.5%;
+    top: 45px;
+    background-color: rgb(255, 183, 49);
+    width: 160px;
+    height: 34px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.clec button{
+    background: none;
+    font-size: 17px;
+}
+.message-input{
+    position: absolute;
+    top: 3800px;
+    width: 100%;
+    height: 500px;
+}
+.message-input h1{
+    color: #353333;
+}
+.reach-out{
+    position: relative;
+    left: 110px;
+    top: 35px;
+}
+.reach-out p{
+    color: rgb(255, 181, 43);
+}
+.send-message{
+    position: relative;
+    left: 110px;
+}
+.question{
+    position: absolute;
+    font-size: 17px ;
+    left: 700px;
+    top: 53px;
+    color: #808080;
+}
+.name-input{
+    position: absolute;
+    left: 110px;
+}
+.name-input input{
+    width: 555px;
+    border: 1px solid #836d6d;
+    height: 35px;
+    border-radius: 50px;
+}
+.email-input{
+    position: absolute;
+    left: 685px;
+}
+.email-input input{
+    border: 1px solid #836d6d;
+    width: 545px;
+    height: 35px;
+    border-radius: 50px;
+}
+.text-input{
+    position: absolute;
+    top: 190px;
+    left: 110px;
+}
+.text-input input{
+    width: 555px;
+    border: 1px solid #836d6d;
+    height: 35px;
+    border-radius: 50px;
+}
+.cat-surprised{
+    width: 400px;
+}
+.surprise{
+    position: absolute;
+    left: 35%;
+    top: 330px;
+}
+.pet-store{
+    position: relative;
+    top: 970px;
+    width: 100%;
+    height: 400px;
+    background-color: #417ceb;
+}
+.clac{
+    position: relative;
+    left: 18%;
+    top: 165px;
+    background-color: rgb(255, 183, 49);
+    width: 270px;
+    height: 34px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.service{
+    color: #ffff;
+}
+.peth2{
+    position: relative;
+    left: 18%;
+    top: 100px;
+    font-size: 17px;
+}
+.petp{
+    position: relative;
+    left: 18%;
+    top: 130px;
+    font-size: 15px;
+}
+.call{
+    position: absolute;
+    top: 110px;
+    left: 600px;
+}
+.call h3{
+    color: #ffff;
+}
+.email-us, .grove{
+    position: relative;
+    left: 600px;
+    color: #ffff;
+    font-size: 17px;
+}
+.payment-card{
+     position: absolute;
+     left: 75%;
+     top: 75px;
+     align-items: center;
+}
+.paypal{
+    width: 70px;
+}
+.master{
+    width: 50px;
+}
+.visa{
+    width: 50px;
+}
+.discovercard{
+    width: 43px;
+}
+.american{
+    width: 40px;
+}
+.credit p{
+    color: #ffff;
+    font-size: 17px;
+}
+.accept h3{
+    color: #ffff;
+}
+.accept{
+    position: absolute;
+    left: 67%;
+    top: 58px;
+}
+.credit{
+    position: absolute;
+    left: 67%;
+    top: 48px;
+}
+.site-text{
+    color: #ffff;
+}
+.siteh3{
+    position: absolute;
+    left: 78.3%;
+    top: 120px;
+}
+.nav-navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    left: 78.3%;
+    top: 185px;
+    
+}
+.nav-navigation a{
+    color: #ffff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.nav-navigation a:hover{
+    text-decoration: underline;
+}
+.nav-navigator a{
+    color: #ffff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.nav-navigator a:hover{
+    text-decoration: underline;
+}
+.nav-navigator{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    left: 86.5%;
+    top: 185px;
+
+}
